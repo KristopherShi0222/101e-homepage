@@ -301,9 +301,8 @@
 
   .web .container {
 
-    display:flex;
-  flex-direction: column;
-    column-gap:30px;
+     grid-template-columns: 280px;
+    row-gap : 30px
 
   }
 
