@@ -1,0 +1,285 @@
+.web {
+  width: 1440px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 20px;
+  padding: 12px 100px 100px;
+  position: relative;
+  background-color: #e3e3e3;
+}
+/*.web .div {
+  display: flex;
+  flex-direction: column;
+  width: 1440px;
+  height: auto;
+  align-items: center;
+  gap: 120px;
+  padding: 0px 100px 64px;
+  position: relative;
+  background-color: #e3e3e3;
+}
+*/
+.web .nav-bar {
+  display: flex;
+  height: 69px;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0px 24px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  overflow: hidden;
+}
+.web .navbar-content {
+  display: flex;
+  width: 1300px;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+.web .logo {
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.web .navbar-menu {
+  display: inline-flex;
+  align-items: center;
+  gap: 32.45px;
+  position: relative;
+  flex: 0 0 auto;
+}
+/*shop about button*/
+.web .navbar-link {
+  display: inline-flex;
+  align-items: flex-start;
+  padding: 24.34px 12.17px;
+  position: relative;
+  flex: 0 0 auto;
+}
+/*shop about text wrapper*/
+.web .text-wrapper {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.01px;
+  font-family: "Arial Narrow-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 21px;
+  white-space: nowrap;
+}
+/*cart button*/
+.web .navbar-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 8px 20px;
+  position: relative;
+  flex: 0 0 auto;
+  background-color: #000000;
+}
+/*text wrapper for cart*/
+.web .text-wrapper-2 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.01px;
+  font-family: "Arial Narrow-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 12.2px;
+  letter-spacing: 0;
+  line-height: 17px;
+  white-space: nowrap;
+}
+
+/*use css grid to create four column */
+.web .container {
+  display: grid;
+  grid-template-columns: 300px 300px 300px 300px;
+  grid-template-rows: auto;
+  justify-self: center;
+  column-gap: 40px;
+}
+/*use flex to control blocks in the column*/
+.web .column {
+  display: flex;
+  flex-direction: column;
+  width: 280px;
+  align-items: flex-start;
+  gap: 20px;
+  position: relative;
+}
+/*format each block (white color background)*/
+.web .FormatPainterProductBlock {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin: auto 20 auto auto;
+  gap: 10px;
+  padding: 20px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #00000033;
+}
+/*format each block (blue color background)*/
+.web .FormatPainterOtherBlock {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 10px;
+  padding: 20px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  background-color: #c1d1e4;
+  border: 1px solid;
+  border-color: #00000033;
+}
+
+/*basic block format*/
+.web .nameTag{
+  position: relative;
+  width: fit-content;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 400;
+  color: #000000;
+  font-size: 14px;
+  line-height: normal;
+  white-space: nowrap;
+}
+/*a column flexbox used when it happens to "repost"*/
+.web .frame {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 12px;
+  align-self: stretch;
+  width: 100%;
+  min-height: 0;
+  display: flex;
+  position: relative;
+  flex: 0 0 auto;
+  text-wrap: wrap;
+  overflow:hidden;
+}
+/*format first pic of each block*/
+.web .image {
+  position: relative;
+  width: 240px;
+  height: auto;
+}
+.web .control {
+  align-self: stretch;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  flex: 0 0 auto;
+}
+.web .timer {
+  position: relative;
+  width: fit-content;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 400;
+  color: #000000;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+
+/*only used when reposting*/
+/*format reposted image with in class frame*/
+.web .frame-2 {
+  align-items: center;
+  gap: 12px;
+  align-self: stretch;
+  width: 100%;
+  display: flex;
+  position: relative;
+  flex: 0 0 auto;
+}
+/*line that stands for reposting*/
+.web .line {
+  position: relative;
+  height: 100%;
+  border-right: 2px solid;
+  border-color: #000;
+}
+
+.web .blueLine {
+  position: relative;
+  height: 100%;
+  border-right: 2px solid;
+  border-color: #000aff;
+}
+
+.web .repostedImage {
+  position: relative;
+  width: 228px;
+  height: auto;
+  
+}
+.web .repostedText {
+  position: relative;
+  align-self: stretch;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 400;
+  color: #000000;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+  width: 280px;
+  text-wrap: wrap;
+}
+/*two googlmap link used in content blog, but it can be wrapped, adding overflow:hidden in frame class to simply hide the overflowing contrent*/
+/*to be fixed*/
+.web .link{
+  text-decoration: underline;
+  position: relative;
+  align-self: stretch;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 400;
+  color: #000aff;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+  text-wrap: wrap;
+}
+/*thanks tag*/
+.web .thanks {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 400;
+  color: #00000080;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+.web .cast {
+  position: relative;
+  align-self: stretch;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 400;
+  color: #00000080;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
